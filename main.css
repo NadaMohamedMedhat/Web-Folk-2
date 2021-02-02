@@ -1,0 +1,177 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Nav Bar*/
+
+.container-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 50px);
+    background-color: #360836;
+    height: 50px;
+    justify-content: center;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -3em;
+}
+
+a {
+    color: #e55380;
+    font-size: 20px;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#Home {
+    color: whitesmoke;
+}
+
+
+/* Frist cover*/
+
+.frist-bg {
+    background-image: url(Images/cover.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.webfolk {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.dots {
+    padding-left: 51%;
+    color: white;
+}
+
+.work {
+    text-align: center;
+    color: white;
+    background-color: #ff0048;
+    font-size: 20px;
+    font-family: 'Tajawal', sans-serif;
+    height: 4em;
+    margin-bottom: 0;
+}
+
+.smalltriangle {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 30px solid #ff0048;
+    position: absolute;
+    margin-top: 0;
+    margin-left: 6em;
+    z-index: 100;
+    position: absolute;
+}
+
+#triangle {
+    margin-left: 45em;
+    margin-top: -1em;
+}
+
+
+/* Images Part*/
+
+.col-lg {
+    position: relative;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.website {
+    background-color: #ff0048;
+    color: white;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 20px;
+    margin-top: -1em;
+    text-align: center;
+}
+
+
+/* Meet The Folks*/
+
+.Meet {
+    color: deeppink;
+    text-align: center;
+    font-family: 'Yeon Sung', cursive;
+    margin-top: 1em;
+}
+
+.name {
+    color: deeppink;
+    font-size: 3em;
+    text-align: center;
+}
+
+.job {
+    font-size: 2em;
+    text-align: center;
+}
+
+#button1 {
+    background-color: black;
+    color: white;
+}
+
+button {
+    width: 10em;
+    height: 2em;
+    text-transform: uppercase;
+}
+
+#button1:hover {
+    background-color: #ff0048;
+}
+
+form {
+    text-align: center;
+}
+
+
+/* second cover*/
+
+.second-bg {
+    background-image: url(Images/Cover_2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.paragraph {
+    color: white;
+}
+
+.heading {
+    color: white;
+}
+
+ul {
+    color: white;
+    font-size: 2em;
+}
+
+.list {
+    float: left;
+    padding-left: 2em;
+}
+
+#button2:hover {
+    background-color: #ff0048;
+}
